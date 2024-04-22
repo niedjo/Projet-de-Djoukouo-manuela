@@ -1,0 +1,41 @@
+.formulaire { 
+    background: #8787ff;
+    padding: 20px;
+    border-radius: 2pc;
+}
+
+thead {
+    color: whitesmoke;
+    background: #8787ff;
+}
+
+.formulaire td { 
+    padding: 8px;
+}
+.nom { 
+    color: white;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.not-done { 
+    color: #ff2222;
+}
+.done {
+    color: #2727ff;
+}
